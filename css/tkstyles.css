@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: rgb(183, 183, 183);
+}
+
 .centerimage {
     display: block;
     margin: auto;
