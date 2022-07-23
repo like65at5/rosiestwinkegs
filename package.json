@@ -1,0 +1,24 @@
+{
+  "name": "rosiestwinkegs",
+  "version": "1.0.0",
+  "description": "\"Rosie's Twin Kegs\"",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/like65at5/rosiestwinkegs.git"
+  },
+  "author": "like65at5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/like65at5/rosiestwinkegs/issues"
+  },
+  "homepage": "https://github.com/like65at5/rosiestwinkegs#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
