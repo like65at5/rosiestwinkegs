@@ -32,24 +32,33 @@
 
   <body>
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-md-6">
             <img
-              class=""
+              class="center"
               src="https://rosiestwinkegs.files.wordpress.com/2018/05/cropped-received_10156401414964429.png?w=320"
             />
-            <h1>Dive Bar and Restaurant since 1976</h1>
+            <h1 class="center my-3">Dive Bar and Restaurant since 1976</h1>
           </div>
-          <div class="col">
-            <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+          <div class="col-xs-8 col-md-4 col-lg-2 center">
+            <a
+              role="button"
+              class="btn btn-danger btn-lg"
+              href="https://www.order.store/store/rosies-twin-kegs-413-w-thompson-ln/R-sfBQvsSPqxzNYcqxCHdA"
+              target="_blank"
+              >Order Online via Postmates</a
+            >
+          </div>
+          <div class="col m-auto">
+            <nav class="navbar center navbar-expand-md navbar-light sticky-top">
               <button
                 class="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#rosiesNavbar"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="fa fa-angle-double-down fa-lg"></span>
               </button>
               <div class="collapse navbar-collapse" id="rosiesNavbar">
                 <ul class="navbar-nav mx-auto">
@@ -89,9 +98,14 @@
     <br /><br />
 
     <div class="container">
-      <div class="row row-content">
-        <div class="col-md-8 mx-auto">
-          <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+      <div class="row justify-content-center">
+        <div class="col-md-8 center">
+          <div
+            id="homeCarousel"
+            class="carousel slide d-none d-sm-block"
+            data-ride="carousel"
+            data-interval="2000"
+          >
             <ol class="carousel-indicators">
               <li
                 data-target="#homeCarousel"
@@ -99,13 +113,15 @@
                 class="active"
               ></li>
               <li data-target="#homeCarousel" data-slide-to="1"></li>
+              <li data-target="#homeCarousel" data-slide-to="2"></li>
+              <li data-target="#homeCarousel" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
                   class="d-block w-100"
-                  src="https://d1ralsognjng37.cloudfront.net/6b441bc5-eda7-43d4-99a0-205a2fb124d8.webp"
-                  alt="Keg Burger with American Cheese, Lettuce, Tomato, and Onion"
+                  src="https://pbs.twimg.com/media/E5vFmFsXEAMTOF8.jpg"
+                  alt="Front face of building during daylight hours"
                 />
                 <div class="carousel-caption"></div>
               </div>
@@ -114,6 +130,22 @@
                   class="d-block w-100"
                   src="https://media-cdn.tripadvisor.com/media/photo-s/05/42/d8/18/twin-kegs.jpg"
                   alt="Indoor Bar and Dining Area"
+                />
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="https://rosiestwinkegs.files.wordpress.com/2022/07/20220708_1238008248314950958827975.jpg"
+                  alt="Burger of the Month: 'Curd is the Word' topped with chili, fried cheese curds, Cheddar, lettuce, and tomato."
+                />
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="https://pbs.twimg.com/media/E5vFmFzWEAAdpUv.jpg"
+                  alt="View from bar seating, with visible taps and many personal signs taped on a large mirror"
                 />
                 <div class="carousel-caption"></div>
               </div>
@@ -295,7 +327,8 @@
               </a>
               <h2>Wings</h2>
               <p>
-                Plain, mild, hot, or bbq and choice of ranch or blue cheese dressing.<br/>
+                Plain, mild, hot, or bbq and choice of ranch or blue cheese
+                dressing.<br />
                 1/2 Dozen: $8 | Dozen: $15
               </p>
             </div>
@@ -306,9 +339,7 @@
                 <img src="" alt="" />
               </a>
               <h2>Tenders</h2>
-              <p>
-                Served with choice of fries or tots. $9.50
-              </p>
+              <p>Served with choice of fries or tots. $9.50</p>
             </div>
           </div>
           <div class="col-lg-12">
@@ -322,9 +353,7 @@
                 <img src="" alt="" />
               </a>
               <h2>BLT</h2>
-              <p>
-                Bacon, lettuce, and tomato on toast. $6
-              </p>
+              <p>Bacon, lettuce, and tomato on toast. $6</p>
             </div>
           </div>
           <div class="col-lg-6">
@@ -356,11 +385,17 @@
                 <img src="" alt="" />
               </a>
               <h2>Fries or Tots $4</h2>
-                <ul>
-                  <li>Cheese 'em: Add $3</li>
-                  <li>Load 'em: Add $4 (includes cheese, bacon, sour cream, and chives) </li>
-                  <li>Breakfast style: Add $4 (includes cheese, bacon, and two (2) *eggs)</li>
-                </ul>
+              <ul>
+                <li>Cheese 'em: Add $3</li>
+                <li>
+                  Load 'em: Add $4 (includes cheese, bacon, sour cream, and
+                  chives)
+                </li>
+                <li>
+                  Breakfast style: Add $4 (includes cheese, bacon, and two (2)
+                  *eggs)
+                </li>
+              </ul>
             </div>
           </div>
           <div class="col-lg-6">
@@ -368,9 +403,10 @@
               <a href="#">
                 <img src="" alt="" />
               </a>
-              <h2>Corn Dogs $6.50</h2>
-              <p>Hand-dipped, housemade beer-battered all-beef dogs.<br/>
-              One: $3 | Two: $5
+              <h2>Corn Dogs</h2>
+              <p>
+                Hand-dipped, housemade beer-battered all-beef dogs.<br />
+                One: $3 | Two: $5
               </p>
             </div>
           </div>
